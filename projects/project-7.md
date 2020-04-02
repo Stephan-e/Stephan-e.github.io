@@ -2,10 +2,10 @@
 layout: project
 type: project
 image: images/courses.png
-title: Hackathons
+title: Curriculum Development
 permalink: projects/skyrock-js
 # All dates must be YYYY-MM-DD format!
-date: 2018-01-01
+date: 2019-01-01
 labels:
   - Javascript
   - Python
