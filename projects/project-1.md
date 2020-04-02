@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/hoog1.jpg
+image: images/hoog0.jpg
 title: Hoog
 permalink: projects/hoog
 # All dates must be YYYY-MM-DD format!
@@ -17,7 +17,6 @@ summary: An IoT grow box where you can remotely view your plant's grow state and
 ---
 
 <div class="ui medium rounded images">
-  <img class="ui image" src="../images/hoog2.jpg">
   <img class="ui image" src="../images/hoog3.jpg">
   <img class="ui image" src="../images/hoog4.png">
 </div>

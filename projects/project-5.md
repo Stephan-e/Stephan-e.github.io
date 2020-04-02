@@ -2,10 +2,10 @@
 layout: project
 type: project
 image: images/shape1.png
-title: Skyrock App
+title: Shape App
 permalink: projects/shape
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-01
+date: 2018-05-01
 labels:
   - Web App
   - Python 

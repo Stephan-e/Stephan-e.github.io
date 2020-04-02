@@ -18,9 +18,9 @@ summary: A series of blockchain and fintech hackathons.
 
 <img class="ui image" src="{{ site.baseurl }}/images/hackathon.jpeg">
 
-Rehive is a blockchain platform and I formed a part of team and in 2018 we did a lot of hackathons around the world to promote the platform. One of the most successful onne was at Flash in Cape Town. 
+Rehive is a blockchain platform and I formed a part of team and in 2018 we did a lot of hackathons around the world to promote the platform. One of the most successful one was at Flash in Cape Town. 
 
-We organnised the event and built tools for thee event to help attendees build their projects easier and faster. 
+We organised the event and built tools for thee event to help attendees build their projects easier and faster. 
 
 The hackathon usually lasted 24 hours where we would go and scope out projects for the different teams and help them get it live in time to pitch. 
 
