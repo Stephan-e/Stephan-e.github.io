@@ -1,39 +1,29 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Stephan Erasmus",
+    "label": "Developer, Researcher",
+    "picture": "https://Stephan-e.github.io/images/me.png",
+    "email": "astephanerasmus@gmail.com",
+    "phone": "+866908584366",
+    "website": "https://Stephan-e.github.io",
+    "summary": "I have over three years of work experience as an back-end software developer with critical skills in REST API development, software infrastructure and app development. With a background in Electrical engineering and mathematical modelling research I am able to apply myself in technical roles. I am passionate about solving problems and improving processes. I have worked in start-up environments and understand how to build and scale digital processes. I am a team player and I have excellent interpersonal communication skills as I have part time teaching experience as well as hosted technical workshops and hackathons..",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "11",
+      "city": "Taipei",
+      "countryCode": "Taiwan",
+      "region": "Taipei City"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "Stephan-e",
+        "url": "http://github.com/Stephan-e"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Stephann Erasmus",
+        "url": "https://www.linkedin.com/in/stephan-erasmus-ab28169b/"
       }
     ]
   },
@@ -61,12 +51,22 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "Python",
+        "Django",
         "C",
         "C++",
         "Java",
         "Javascript",
         "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "React",
+        "Matlab",
+        "Scipy",
+        "Pandas",
+        "LaTeX",
+        "SQL"
+
       ]
     },
     {
@@ -76,20 +76,34 @@
         "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Postman",
+        "Docker",
+        "Linux",
+        "Google Cloud",
+        "Firebase",
+        "VSCode"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "institution": "Stellenbosch University, South Africa",
+      "area": "MEng Electrical Engineering",
+      "studyType": "MSc",
+      "startDate": "2016-01-01",
+      "endDate": "2017-03-01",
+      "gpa": "Cum Laude",
       "courses": [
+      ]
+    },
+    {
+      "institution": "Stellenbosch University, South Africa",
+      "area": "BEng Electrical Engineering (Energy)",
+      "studyType": "B.Enng",
+      "startDate": "2010-01-01",
+      "endDate": "2015-12-01",
+      "gpa": "",
+      "courses": ["Robotics", "Systems + Signals", "Electrical Drive systems", "Electronics", "Renewable Energy", "Power Electronics"
       ]
     }
   ],
