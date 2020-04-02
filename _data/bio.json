@@ -9,7 +9,7 @@
     "summary": "I have over three years of work experience as an back-end software developer with critical skills in REST API development, software infrastructure and app development. With a background in Electrical engineering and mathematical modelling research I am able to apply myself in technical roles. I am passionate about solving problems and improving processes. I have worked in start-up environments and understand how to build and scale digital processes. I am a team player and I have excellent interpersonal communication skills as I have part time teaching experience as well as hosted technical workshops and hackathons..",
     "location": {
       "address": "",
-      "postalCode": "11",
+      "postalCode": "111",
       "city": "Taipei",
       "countryCode": "Taiwan",
       "region": "Taipei City"
@@ -29,20 +29,38 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of Things",
       "keywords": [
         "Arduino",
-        "TI MSP430"
+        "Raspberry Pi"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Web Development",
       "keywords": [
+        "Python", 
+        "Django",
+        "API", 
+        "Apps"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Renewable Energy",
       "keywords": [
+        "Electrical Machines",
+        "Mechanical Design",
+        "Wind Turbines", 
+        "Energy Efficiency",
+        "energy Storage"
+      ]
+    },
+    {
+      "name": "Research",
+      "keywords": [
+        "Hypothesis testing",
+        "Experimentation",
+        "Report Writing", 
+        "Prototyping"
       ]
     }
   ],
@@ -109,69 +127,59 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Skyrock Projects",
+      "position": "Technical Lead / Curriculum Developer",
+      "website": "www.skyrockprojects.com",
+      "startDate": "2019-01-01",
+      "endDate": "2020-03-01",
+      "summary": "Lead of all technical development of curriculum and business.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+      "Construction of a web app built using Python Django for student management and creative software tools for students.", 
+      "Design and management of coding curriculum and projects for a project based learning school." 
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Rehive",
+      "position": "Software Engineer",
+      "website": "www.rehive.com",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Backend development of Blockchain Apps",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Built various Python Django back-end systems for integration with Blockchain and Financial technologies."
+      ]
+    },
+    {
+      "company": "RSAWEB",
+      "position": "Software Engineer",
+      "website": "www.rssaweb.co.za",
+      "startDate": "2017-08-01",
+      "endDate": "2018-01-01",
+      "summary": "Full stack development for payment integrations",
+      "highlights": [
+        "Software integration of a payment system using Docker, PHP, Python."
       ]
     }
   ],
-  "volunteer": [
+  
+  "publications": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "author": "A.S. Erasmus and M.J. Kamper",
+      "name": "Analysis and design optimisation of a double pm-rotor radial-flux eddy current coupler",
+      "publisher": "IEEE energy Conversion Congres and Expo",
+      "summary": "In this study a semi-analytical calculation method for obtaining 3D solutions for the torque of radial flux permanent magnet eddy current couplers is presented. In this way the use of computationally expensive transient 3D finite element solutions is avoided, which is very important when it comes to the design optimisation of these machines. The proposed analytical method takes the effect of flux density harmonics into account. The 3D end-effects are taken into account by using Russell's coefficient. The accuracy of the proposed semi-analytical calculation method is evaluated against extreme variation of machine dimensions. It is shown that this fast calculation method can be used with great accuracy in the design optimisation of these couplers."
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "author": "A.S. Erasmus and M.J. Kamper",
+      "name": "Computationally efficient analysis of double PM-rotor radial-flux eddy current couplers",
+      "publisher": "IEEE Transactions on Industry Applications",
+      "summary": "In this study, a semianalytical calculation method for obtaining 3-D solutions for the torque of radial-flux permanent magnet eddy current couplers is presented. In this way, the use of computationally expensive transient 3-D finite element solutions is avoided, which is very important when it comes to the design optimization of these machines. The proposed analytical method takes the effect of flux density harmonics into account. The 3-D end-effects are taken into account by using Russell's coefficient. The accuracy of the proposed semianalytical calculation method is evaluated against extreme variation of machine dimensions. The Russell end-effect factor is evaluated and found to be inaccurate for axially short and radially large couplers. A prototype coupler with different conductors was tested to validate the proposed semianalytical torque calculation method."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "author": "A.S. Erasmus and M.J. Kamper",
+      "name": "Multi-objective design optimisation and pareto front visualisation of radial-flux eddy current coupling for a wind generator drivetrain",
+      "publisher": "2016 IEEE Energy Conversion Congress and Exposition (ECCE)",
+      "summary": "In this paper the design optimisation of a 2.2 kW, double rotor, radial axis eddy current coupling operating at 97 % efficiency, designed for a wind turbine drive train application is described. A computationally efficient finite element analysis in conjunction with gradient (MMFD) and population (NSGA) based design optimisation algorithms is used in order to obtain an optimal coupling design. The two optimisation algorithms are evaluated in terms of speed and accuracy. The comparison between copper and aluminium conductor materials revealed that the aluminium is the preferred material in terms of mass and cost. A gradient-based analysis method with regard to the input parameters of the genetic optimisation algorithm's pareto curve is proposed."
     }
   ],
   "references": [
