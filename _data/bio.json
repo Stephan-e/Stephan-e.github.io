@@ -83,7 +83,9 @@
         "Scipy",
         "Pandas",
         "LaTeX",
-        "SQL"
+        "SQL",
+        "FPGA",
+        "VHDL"
 
       ]
     },
@@ -152,12 +154,38 @@
     {
       "company": "RSAWEB",
       "position": "Software Engineer",
-      "website": "www.rssaweb.co.za",
+      "website": "www.rsaweb.co.za",
       "startDate": "2017-08-01",
       "endDate": "2018-01-01",
       "summary": "Full stack development for payment integrations",
       "highlights": [
         "Software integration of a payment system using Docker, PHP, Python."
+      ]
+    },
+    {
+      "company": "Stellenbosch University",
+      "position": "Project Engineer",
+      "website": "ee.sun.ac.za",
+      "startDate": "2015-06-01",
+      "endDate": "2018-06-01",
+      "summary": "Research and Development",
+      "highlights": [
+        "Research on renewable wind energy. Construction of 2.2 kW wind turbine. ",
+        "The construction of a FPGA measurement system for the control of electrical machines. PCB layout and design boards. ",
+        "Migration of FPGA system to ARM based system. General laboratory administration."
+      ]
+    }
+    {
+      "company": "Stellenbosch University",
+      "position": "Researcher",
+      "website": "ee.sun.ac.za",
+      "startDate": "2014-06-01",
+      "endDate": "2018-06-01",
+      "summary": "Research and Development",
+      "highlights": [
+        "Research on a magnetic coupler and improved design using multi objective design modelling and tests.", 
+        "Model validated with built prototype.",
+        "Published research."
       ]
     }
   ],
