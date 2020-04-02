@@ -1,25 +1,32 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/coup1.png
+title: Eddy Current Coupling
+permalink: projects/coupling
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2015-01-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Python
+  - Matlab
+  - Mathematical Modelling
+  - Research
+  - Academic Journal
+  - Seed Funding
+  - Product Development
+
+summary: An electro mechanical coupler that removes vibrations on wind turbine rotors.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/coup2.jpg">
+  <img class="ui image" src="../images/coup4.png">
+</div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This formed part of my master's project and I had a lot of success in doinng this project at Stellenbosch University under supervision of Prof. MJ Kamper. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+In doing a lot of research into wind turbines and mechanical enginnering, as an electrical engineer I designed a machine that removes high frequency vibrations that occur on the shaft or rotor of a wind turbine. In doing so, it prolonges the life span of the generator and gearrbox in the system, resultng in overall savings and efficiency. 
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+The couplings were designed and evaluated using mathematical multi objective models and were programmed into python to excecute. The models then produced a pareto curve that was then analysed and impacted design choices. The design was then evaluated by building a physical model inn a laboratory test set up. 
+
+This product also gained some traction and seed funding to develop it.

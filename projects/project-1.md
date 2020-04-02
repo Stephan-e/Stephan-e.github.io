@@ -1,44 +1,36 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/hoog1.jpg
+title: Hoog
+permalink: projects/hoog
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-06-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Raspberry pi
+  - React
+  - Firebase
+  - Google Cloud
+  - Balena
+  - IoT
+summary: An IoT grow box where you can remotely view your plant's grow state and set the grow cycle
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/hoog2.jpg">
+  <img class="ui image" src="../images/hoog3.jpg">
+  <img class="ui image" src="../images/hoog4.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Hoog is a remote grow box that consists of three parts, an internet connected box with a plant inside, an IoT cloud management server and a web app to view and control the box. The box applicationn is for growing food indoors and to be made availible to people to monitor the status of the plants inside the box. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+The box itself consits of a raspberry pi device, electronic sensors ( temperature, humidity, soil moisture, airflow, fans, COB lights and a camera), which can all be controlled through API calls to the server running on the Raspberry Pi. 
 
-Here is some code that illustrates how we read values from the line sensors:
+The IoT management server is set up on Balena.io and is used to create a cluster of devices to the network. The server generates an unique ID that exposes the API endpoints on the individual devices. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+The React app is an interface that is used to connect to the box and IoT servers. The app collects data from the boxes and stores the data inside a firebase Database, and recalls it on a graph to show sennsor data over time. The light and watering schedule of the boxes can also be set on the app which takes care of the plant depending on the various types of plants.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
+Source: <a href="https://github.com/Stephan-e/hoog_server"><i class="large github icon"></i>Hoog</a>
 
 
