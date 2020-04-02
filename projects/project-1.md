@@ -19,7 +19,7 @@ summary: An IoT grow box where you can remotely view your plant's grow state and
 <div class="ui medium rounded images">
   <img class="ui image" src="../images/hoog2.jpg">
   <img class="ui image" src="../images/hoog3.jpg">
-  <img class="ui image" src="../images/hoog4.jpg">
+  <img class="ui image" src="../images/hoog4.png">
 </div>
 
 Hoog is a remote grow box that consists of three parts, an internet connected box with a plant inside, an IoT cloud management server and a web app to view and control the box. The box applicationn is for growing food indoors and to be made availible to people to monitor the status of the plants inside the box. 
